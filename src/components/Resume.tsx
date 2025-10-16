@@ -252,7 +252,7 @@ const Resume = () => {
                 description: 'DSA + AI/ML + 6+ Technical Projects',
                 color: 'from-aui-cyan-500 to-aui-purple-500'
               }
-            ].map((highlight, index) => (
+            ].map((highlight) => (
               <motion.div 
                 key={highlight.title}
                 variants={itemVariants}

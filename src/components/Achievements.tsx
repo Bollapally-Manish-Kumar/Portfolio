@@ -299,7 +299,7 @@ const Achievements = () => {
             { number: '4', label: 'Years of Study', icon: GraduationCap },
             { number: '4', label: 'Professional Internships', icon: Briefcase },
             { number: '6+', label: 'Projects Completed', icon: Award }
-          ].map((stat, index) => (
+          ].map((stat) => (
             <motion.div 
               key={stat.label}
               className="glass-card p-8 text-center group"
